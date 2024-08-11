@@ -12,13 +12,13 @@ import java.util.Random;
 @Repository
 public class StaticQuoteRepositoryImpl implements QuoteRepository{
 
-    @Value("${quotes.file.path}")
+    @Value("${quotes.file.path:static/quotes.json}")
     private String quotesFilePath;
 
     @Override
     public Quote getRandom() {
         try {
-            List<Quote> quotes = new JsonUtil().readJson(quotesFilePath);
+            List<Quote> quotes = JsonUtil.readJson(quotesFilePath);
             return getRandom(quotes);
 
         } catch (IOException e) {
