@@ -3,6 +3,7 @@ package maruf.khandaker.quote.repository;
 import maruf.khandaker.quote.model.Quote;
 import maruf.khandaker.quote.util.JsonUtil;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 @Repository
+@Profile("test")
 public class StaticQuoteRepositoryImpl implements QuoteRepository{
 
     @Value("${quotes.file.path:static/quotes.json}")

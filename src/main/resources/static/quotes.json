@@ -1,12 +1,12 @@
 [
-  {"serial_no": 1, "author": "Nelson Mandela", "quote": "It always seems impossible until it's done."},
-  {"serial_no": 2, "author": "Mahatma Gandhi", "quote": "Be the change you wish to see in the world."},
-  {"serial_no": 3, "author": "Martin Luther King Jr.", "quote": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character."},
-  {"serial_no": 4, "author": "Walt Disney", "quote": "The only way to do great work is to love what you do."},
-  {"serial_no": 5, "author": "Steve Jobs", "quote": "Stay hungry, stay foolish."},
-  {"serial_no": 6, "author": "Eleanor Roosevelt", "quote": "The future belongs to those who believe in the beauty of their dreams."},
-  {"serial_no": 7, "author": "Oprah Winfrey", "quote": "The biggest adventure you can take is to live the life of your dreams."},
-  {"serial_no": 8, "author": "Albert Einstein", "quote": "The only thing constant in life is change."},
-  {"serial_no": 9, "author": "Mother Teresa", "quote": "Do something beautiful for someone today."},
-  {"serial_no": 10, "author": "Maya Angelou", "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."}
+  {"id": 1, "author": "Nelson Mandela", "content": "It always seems impossible until it's done."},
+  {"id": 2, "author": "Mahatma Gandhi", "content": "Be the change you wish to see in the world."},
+  {"id": 3, "author": "Martin Luther King Jr.", "content": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character."},
+  {"id": 4, "author": "Walt Disney", "content": "The only way to do great work is to love what you do."},
+  {"id": 5, "author": "Steve Jobs", "content": "Stay hungry, stay foolish."},
+  {"id": 6, "author": "Eleanor Roosevelt", "content": "The future belongs to those who believe in the beauty of their dreams."},
+  {"id": 7, "author": "Oprah Winfrey", "content": "The biggest adventure you can take is to live the life of your dreams."},
+  {"id": 8, "author": "Albert Einstein", "content": "The only thing constant in life is change."},
+  {"id": 9, "author": "Mother Teresa", "content": "Do something beautiful for someone today."},
+  {"id": 10, "author": "Maya Angelou", "content": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."}
 ]
